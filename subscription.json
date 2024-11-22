@@ -1,1 +1,3099 @@
 
+{
+	"id": 825,
+	"name": "incubus订阅",
+	"version": 212,
+	"author": "gkd",
+	"globalGroups": [],
+	"categories": [],
+	"apps": [
+		{
+			"id": "com.vivo.symmetry",
+			"name": "摄影",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 17:01:40",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[id='com.vivo.symmetry:id/popup_cancel_iv']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.vivo.symmetry.ui.HomeActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.starrysky.ssfilms",
+			"name": "星空视频",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 17:03:54",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[id='close_btn']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.sigmob.sdk.base.common.TransparentAdActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 17:10:50",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[id='com.starrysky.ssfilms:id/img_native_close']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.ys.resemble.ui.homecontent.videosearch.SearchContentVideoActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 18:22:51",
+					"key": 3,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[text='跳过']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.ys.resemble.ui.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 10:42:23",
+					"key": 4,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"@ImageView < FrameLayout[childCount=1] <4 [childCount=4] <2 [childCount=2] <<3 [id='com.starrysky.ssfilms:id/layout_adView']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.ys.resemble.ui.homecontent.videodetail.VideoPlayDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 11:23:59",
+					"key": 5,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [childCount=1] <4 [childCount=4] <3 [childCount=3] <<4 [id='com.starrysky.ssfilms:id/layout_adView']"
+							],
+							"activityIds": [
+								"com.ys.resemble.ui.homecontent.videodetail.VideoPlayDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 11:35:35",
+					"key": 6,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [childCount=1] <2 [childCount=2] < [childCount=2] <<2 [id='android:id/content']"
+							],
+							"activityIds": [
+								"com.ys.resemble.ui.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "跳过",
+					"key": 8,
+					"desc": "跳过",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"跳过\"]"
+							],
+							"activityIds": [
+								"com.ys.resemble.ui.login.splash.SplashSecondAdActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "开屏广告",
+					"key": 9,
+					"desc": "开屏广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.starrysky.ssfilms:id/txt_skip\"]"
+							],
+							"activityIds": [
+								"com.ys.resemble.ui.login.splash.SplashSecondAdActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "弹出X",
+					"key": 10,
+					"desc": "弹出X",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [childCount=1][name=\"android.view.ViewGroup\"] < [childCount=1][name=\"android.view.ViewGroup\"] +2 [name=\"android.view.ViewGroup\"] > [text*=\"广告\"]"
+							],
+							"activityIds": [
+								"com.ys.resemble.ui.login.splash.SplashSecondAdActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-02-19 11:44:28",
+					"key": 11,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [childCount=1][name=\"android.view.ViewGroup\"] < [childCount=1][name=\"android.view.ViewGroup\"] +2 [name=\"android.view.ViewGroup\"] > [text=\"广告\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ys.resemble.ui.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-02-19 11:46:41",
+					"key": 12,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ViewGroup < [childCount=1][name=\"android.view.ViewGroup\"] +2 [name=\"android.view.ViewGroup\"] > [text*=\"广告\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ys.resemble.ui.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-02-19 13:52:12",
+					"key": 13,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[text*=\"跳过\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ys.resemble.ui.login.splash.SplashADSetActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "广告自动静音",
+					"key": 14,
+					"desc": "广告自动静音",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView[clickable=true] + [name=\"android.widget.RelativeLayout\"] >2 [text*=\"后可领取奖励\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.baidu.mobads.sdk.api.MobRewardVideoActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-02-19 14:06:29",
+					"key": 15,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.starrysky.ssfilms:id/ksad_auto_close_btn\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ys.resemble.ui.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "首页弹窗跳过",
+					"key": 16,
+					"desc": "首页弹窗跳过",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"close_btn\"][text=\"跳过\"]"
+							],
+							"activityIds": [
+								"com.sigmob.sdk.base.common.PortraitTransparentAdActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "首页弹窗跳过x",
+					"key": 17,
+					"desc": "首页弹窗跳过x",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"close_btn\"][text=\"\"]"
+							],
+							"activityIds": [
+								"com.ys.resemble.ui.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "首页弹窗跳过xx",
+					"key": 18,
+					"desc": "首页弹窗跳过x",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"close_btn\"] - [text=\"反馈\"] + [id=\"close_btn\"]"
+							],
+							"activityIds": [
+								"com.sigmob.sdk.base.common.PortraitTransparentAdActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "观看广告自动关闭",
+					"key": 19,
+					"desc": "观看广告自动关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.starrysky.ssfilms:id/iv_close\"][vid=\"iv_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.moqi.sdk.activity.MQPortraitDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "观看广告静音",
+					"key": 20,
+					"desc": "观看广告静音",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.starrysky.ssfilms:id/iv_sound\"][vid=\"iv_sound\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ys.resemble.ui.homecontent.videodetail.VideoPlayDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "播放页下的广告",
+					"key": 21,
+					"desc": "播放页下的广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.starrysky.ssfilms:id/img_native_close\"][vid=\"img_native_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ys.resemble.ui.homecontent.videodetail.VideoPlayDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "饿了么跳过",
+					"key": 22,
+					"desc": "饿了么跳过",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"跳过\"][name=\"android.widget.TextView\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ys.resemble.ui.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "京东跳过",
+					"key": 23,
+					"desc": "京东跳过",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.starrysky.ssfilms:id/sig_ad_timer\"][text=\"   跳过   \"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.sigmob.sdk.base.common.PortraitTransparentAdActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-05-29 19:00:39",
+					"key": 24,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"close_btn\"]"
+							],
+							"activityIds": [
+								"com.sigmob.sdk.base.common.PortraitTransparentAdActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.eg.android.AlipayGphone",
+			"name": "支付宝",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 17:24:01",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[desc='关闭'][name='android.widget.ImageView']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.eg.android.AlipayGphone.AlipayLogin"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-28 11:39:48",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[text='']"
+							],
+							"activityIds": [
+								"com.alipay.android.msp.ui.views.MspContainerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-05 16:37:35",
+					"key": 3,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.alipay.mobile.antui:id/btn_close'][desc='取消']"
+							],
+							"activityIds": [
+								"com.eg.android.AlipayGphone.AlipayLogin"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-01-26 18:21:25",
+					"key": 4,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@View - [text=\"免费领基金\"][name=\"android.view.View\"]"
+							],
+							"activityIds": [
+								"com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main"
+							]
+						}
+					]
+				},
+				{
+					"name": "花呗升级服务",
+					"key": 5,
+					"desc": "花呗升级服务",
+					"rules": [
+						{
+							"matches": [
+								"@Image - [text=\"花呗服务升级\"]"
+							],
+							"activityIds": [
+								"com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.qqmusic",
+			"name": "QQ音乐",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 17:36:51",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[name='android.view.ViewGroup'] - [desc='看广告，免费听歌弹窗']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.tencent.qqmusiccommon.hybrid.HybridViewActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-29 18:10:28",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView - [text='广告']"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-29 18:13:04",
+					"key": 3,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.qqmusic:id/za']"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.business.playernew.view.NewPlayerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-29 18:14:33",
+					"key": 4,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.qqmusic:id/za']"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-04 15:13:12",
+					"key": 5,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@View - [text='关闭']"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.TranslucentWebViewActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-04 15:15:37",
+					"key": 6,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@View + [text='关闭']"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.TranslucentWebViewActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-04 15:17:29",
+					"key": 7,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@View + [text='关闭']"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.TranslucentWebViewActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-04 15:21:44",
+					"key": 8,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@View + [text='关闭'][childCount=0]"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.TranslucentWebViewActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-04 15:44:37",
+					"key": 9,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@View < [name='android.view.View'][desc='关闭'] + [name='android.view.View'] > [text='正在试听 完整播放需开通VIP']"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.TranslucentWebViewActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-01-11 13:46:16",
+					"key": 10,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@View - [text=\"关闭\"]"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.TranslucentWebViewActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-01-22 13:59:33",
+					"key": 11,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.qqmusic:id/ig_\"]"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.business.playernew.view.NewPlayerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-02-27 15:56:11",
+					"key": 12,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ViewGroup - [name=\"android.view.ViewGroup\"][childCount=2][left=180][width=720][top=726][right=900]"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "关闭",
+					"key": 13,
+					"desc": "关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.qqmusic:id/eqh\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-03-13 11:12:08",
+					"key": 14,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.qqmusic:id/hv7\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.qqmusic.business.ad.reward.QQMusicRewardADActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-03-13 11:13:32",
+					"key": 15,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"静音\"][name=\"android.widget.ToggleButton\"]"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.business.ad.reward.QQMusicRewardADActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-03-13 11:14:11",
+					"key": 16,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"关闭\"][name=\"android.widget.ToggleButton\"]"
+							],
+							"activityIds": [
+								"com.tencentmusic.ad.tmead.reward.TMERewardActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-04-09 10:32:28",
+					"key": 17,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView - [id=\"com.tencent.qqmusic:id/i85\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "流量够用",
+					"key": 18,
+					"desc": "流量够用",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.qqmusic:id/et8\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.qqmusic.business.playernew.view.NewPlayerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "弹窗关闭11",
+					"key": 19,
+					"desc": "关闭11",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.qqmusic:id/gqs\"][desc=\"关闭\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "免费30分钟",
+					"key": 20,
+					"desc": "免费30分钟",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.qqmusic:id/bhi\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.autonavi.minimap",
+			"name": "高德地图",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 18:12:05",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[id='com.autonavi.minimap:id/iv_close']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.autonavi.map.activity.NewMapActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.wemeet.app",
+			"name": "腾讯会议",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 18:14:26",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[id='com.tencent.wemeet.app:id/btq']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.tencent.wemeet.sdk.meeting.premeeting.home.HomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-14 09:52:11",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.wemeet.app:id/dp']"
+							],
+							"activityIds": [
+								"com.tencent.wemeet.sdk.meeting.premeeting.home.HomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "消息通知在想想",
+					"key": 3,
+					"desc": "消息通知在想想",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.wemeet.app:id/b3k\"][text=\"再想想\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.wemeet.module.settings.activity.SettingAlertActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "无法使用此功能-取消",
+					"key": 4,
+					"desc": "无法使用此功能-取消",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.wemeet.app:id/e6\"][text=\"取消\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.wemeet.sdk.meeting.premeeting.home.HomeActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.cctv.cctv5ultimate",
+			"name": "央视体育",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 18:46:04",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[id='com.cctv.cctv5ultimate:id/drag_suction_close_btn']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.cctv.cctv5ultimate.activity.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 18:45:30",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[id='com.cctv.cctv5ultimate:id/close']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.cctv.cctv5ultimate.activity.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.chaozh.iReader",
+			"name": "电子书",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-23 18:18:47",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"preKeys": [],
+							"matches": [
+								"[id='com.zhangyue.commonplugin:id/dialog_welfare_card_close']"
+							],
+							"excludeMatches": [],
+							"activityIds": [
+								"com.zhangyue.iReader.bookshelf.ui.ActivityBookShelf"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "tv.danmaku.bili",
+			"name": "哔哩哔哩",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 13:07:53",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='tv.danmaku.bili:id/close'][text='暂不']"
+							],
+							"activityIds": [
+								"tv.danmaku.bili.MainActivityV2"
+							]
+						}
+					]
+				},
+				{
+					"name": "评论通知关闭",
+					"key": 1,
+					"desc": "评论通知关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"tv.danmaku.bili:id/close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.bilibili.video.videodetail.VideoDetailsActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "直播关注弹框",
+					"key": 2,
+					"desc": "直播关注弹框",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"tv.danmaku.bili:id/close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3"
+							]
+						}
+					]
+				},
+				{
+					"name": "暂不开启悬浮窗",
+					"key": 3,
+					"desc": "暂不开启悬浮窗",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"暂不开启\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3"
+							]
+						}
+					]
+				},
+				{
+					"name": "直播页面关注关闭",
+					"key": 4,
+					"desc": "直播页面关注关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"tv.danmaku.bili:id/iv_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3"
+							]
+						}
+					]
+				},
+				{
+					"name": "知道了",
+					"key": 5,
+					"desc": "知道了",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"tv.danmaku.bili:id/snackbar_action\"][text=\"知道了\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"tv.danmaku.bili.MainActivityV2"
+							]
+						}
+					]
+				},
+				{
+					"name": "残忍拒绝",
+					"key": 6,
+					"desc": "残忍拒绝",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"残忍拒绝\"]"
+							],
+							"activityIds": [
+								"com.bilibili.lib.ui.GeneralActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "大会员秒杀",
+					"key": 7,
+					"desc": "大会员秒杀",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"tv.danmaku.bili:id/closeTV\"][vid=\"closeTV\"]"
+							],
+							"quickFind": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.sina.weibo",
+			"name": "微博",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 15:32:06",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.sina.weibo:id/ivClose']"
+							],
+							"activityIds": [
+								"com.sina.weibo.feed.DetailWeiboActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 20:08:58",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.sina.weibo:id/iv_close']"
+							],
+							"activityIds": [
+								"com.sina.weibo.NotifyGuideActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-29 17:50:25",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.sina.weibo:id/ivClose']"
+							],
+							"activityIds": [
+								"com.sina.weibo.feed.DetailWeiboActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "微博热搜页面弹出广告",
+					"key": 3,
+					"desc": "微博热搜页面弹出广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.sina.weibo:id/btn_close\"]"
+							],
+							"activityIds": [
+								"com.sina.weibo.MainTabActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "微博左下角小广告",
+					"key": 4,
+					"desc": "微博左下角小广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.sina.weibo:id/iv_close\"]"
+							],
+							"activityIds": [
+								"com.sina.weibo.MainTabActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "微博-对该条博文不感兴趣",
+					"key": 5,
+					"desc": "微博-对该条博文不感兴趣",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"对该条博文不感兴趣\"]"
+							],
+							"activityIds": [
+								"com.sina.weibo.feed.DetailWeiboActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-04-09 10:48:04",
+					"key": 6,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.sina.weibo:id/iv_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.sina.weibo.MainTabActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "出框广告",
+					"key": 7,
+					"desc": "出框广告",
+					"rules": [
+						{
+							"matches": [
+								"@TextView - [text=\"出框广告\"]"
+							],
+							"activityIds": [
+								"com.sina.weibo.MainTabActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-08-01 09:41:27",
+					"key": 8,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@TextView - [name=\"android.widget.RelativeLayout\"] >2 [id=\"com.sina.weibo:id/dialogTitle\"][text=\"微博需要下列权限提供更好服务\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.sina.weibo.SplashActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.qqlive",
+			"name": "腾讯视频",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 15:35:37",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[desc='the ad tag']"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.VideoDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 15:36:24",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[text='直接关闭']"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.VideoDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 15:37:13",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.qqlive:id/arg'][text='确认']"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.VideoDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 15:40:54",
+					"key": 3,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.qqlive:id/arg'][text='直接关闭']"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.SplashHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 15:43:18",
+					"key": 4,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[text='确认'][id='com.tencent.qqlive:id/arg']"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.SplashHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 15:45:03",
+					"key": 5,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[text='确认']"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.VideoDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "立即预约",
+					"key": 6,
+					"desc": "立即预约",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView + [name=\"android.widget.LinearLayout\"] > [text=\"立即预约\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.SplashHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "12个月会员",
+					"key": 7,
+					"desc": "12个月会员",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"45010695\"]"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.SplashHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "下载应用点击关闭",
+					"key": 8,
+					"desc": "下载应用点击关闭",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView - [name=\"android.widget.LinearLayout\"] > [text=\"了解详情\" || text=\"下载应用\" || text=\"立即下载\" || text=\"立即抢购\" || text=\"去微信看看\"]"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.VideoDetailActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "暂停广告",
+					"key": 9,
+					"desc": "暂停广告",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView +3 [name=\"android.widget.ProgressBar\"]"
+							],
+							"activityIds": [
+								"com.tencent.qqlive.ona.activity.VideoDetailActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.shizhuang.duapp",
+			"name": "得物",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-24 17:37:06",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.shizhuang.duapp:id/closeImage']"
+							],
+							"activityIds": [
+								"com.shizhuang.duapp.modules.home.ui.SplashActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.hpbr.bosszhipin",
+			"name": "BOSS直聘",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-28 10:53:08",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.hpbr.bosszhipin:id/btn_cancel']"
+							],
+							"activityIds": [
+								"com.hpbr.bosszhipin.module.update.UpgradeDialogActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-28 10:55:30",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.hpbr.bosszhipin:id/btn_cancel_horizontal']"
+							],
+							"activityIds": [
+								"com.hpbr.bosszhipin.module.main.activity.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-28 10:57:04",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.hpbr.bosszhipin:id/iv_left']"
+							],
+							"activityIds": [
+								"com.hpbr.bosszhipin.module.main.activity.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.kingpoint.gmcchh",
+			"name": "中国移动广东",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-28 11:41:58",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.kingpoint.gmcchh:id/image_logo']"
+							],
+							"activityIds": [
+								"com.kingpoint.gmcchh.activity.StartActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "拒绝授权提醒",
+					"key": 1,
+					"desc": "拒绝授权提醒",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.kingpoint.gmcchh:id/left_btn\"][text=\"拒绝\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.mc10086.cmcc.view.tabs.AppTabFragment"
+							]
+						}
+					]
+				},
+				{
+					"name": "弹窗关闭",
+					"key": 2,
+					"desc": "弹窗关闭",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"close-icon1\"]"
+							],
+							"activityIds": [
+								"com.mc10086.cmcc.view.tabs.AppTabFragment"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.job.android",
+			"name": "前程无忧51Job",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-29 18:02:51",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.job.android:id/update_button_cancel']"
+							],
+							"activityIds": [
+								"com.job.android.pages.common.AppBottomActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-29 18:04:06",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.job.android:id/closeTipImageView']"
+							],
+							"activityIds": [
+								"com.job.android.pages.apphome.AppHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-14 09:53:43",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.job.android:id/iv_close']"
+							],
+							"activityIds": [
+								"com.job.android.pages.apphome.AppHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "vip 找工作",
+					"key": 3,
+					"desc": "vip 找工作",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.job.android:id/ivBack\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.job.android.pages.apphome.AppHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "广告弹窗ivBack",
+					"key": 4,
+					"desc": "ivBack",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.job.android:id/ivBack\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.job.android.pages.common.AppBottomActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.taou.maimai",
+			"name": "脉脉",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-11-30 11:47:34",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.taou.maimai:id/close_btn']"
+							],
+							"activityIds": [
+								"com.taou.maimai.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-11-30 11:54:29",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView +2 [text='选择接收消息范围']"
+							],
+							"activityIds": [
+								"com.taou.maimai.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "什么时候加入",
+					"key": 2,
+					"desc": "什么时候加入",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [name=\"android.view.ViewGroup\"] < [name=\"android.view.ViewGroup\"] +7 [text=\"完善职业形象，发现更多人脉机遇\"]"
+							],
+							"activityIds": [
+								"com.taou.maimai.profile.view.activity.BlankActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-02-22 14:21:56",
+					"key": 3,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [name=\"android.view.ViewGroup\"] < [name=\"android.view.ViewGroup\"] +5 [text=\"你什么时候加入的阿里巴巴集团？\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.taou.maimai.react.ReactActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-05-29 19:10:42",
+					"key": 4,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.taou.maimai:id/menu_bar_back_icon\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.taou.maimai.activity.WebViewActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "右小角小广告",
+					"key": 5,
+					"desc": "右小角小广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.taou.maimai:id/layout_fab_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.taou.maimai.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "首页弹出广告-超大",
+					"key": 6,
+					"desc": "首页弹出广告-超大",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.taou.maimai:id/adshow_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.taou.maimai.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.netease.cloudmusic",
+			"name": "网易云音乐",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-12-04 14:16:19",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [childCount=1] - [text='正在试听，开通VIP听整首']"
+							],
+							"activityIds": [
+								"com.netease.cloudmusic.music.biz.rn.activity.MainProcessLayerReactNativeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-04 14:17:26",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.netease.cloudmusic:id/closeAction']"
+							],
+							"activityIds": [
+								"com.netease.cloudmusic.music.biz.comment.activity.CommentActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-04 14:18:14",
+					"key": 2,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.netease.cloudmusic:id/feedbackReasonText'][text='不感兴趣']"
+							],
+							"activityIds": [
+								"com.netease.cloudmusic.music.biz.comment.activity.CommentActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "首你喜欢的歌曲重新上架了",
+					"key": 3,
+					"desc": "首你喜欢的歌曲重新上架了",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView - [text*=\"首你喜欢的歌曲重新上架了\"]"
+							],
+							"activityIds": [
+								"com.netease.cloudmusic.activity.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "过期续费",
+					"key": 4,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [name=\"android.view.ViewGroup\"] - [text*=\"每期自动续费\"]"
+							],
+							"activityIds": [
+								"com.netease.cloudmusic.activity.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "多款播放器模式全新上线",
+					"key": 5,
+					"desc": "多款播放器模式全新上线",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView + [text=\"多款播放器模式全新上线\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.netease.cloudmusic.activity.PlayerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-03-19 11:01:48",
+					"key": 6,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [name=\"android.view.ViewGroup\"] < [name=\"android.view.ViewGroup\"] - [text=\"正在免费听全曲，开通VIP享千万曲库\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.netease.cloudmusic.music.biz.rn.activity.MainProcessLayerReactNativeActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.tim",
+			"name": "TIM",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-12-05 16:41:55",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.tim:id/fds'][text='QQ授权登录']"
+							],
+							"activityIds": [
+								"com.tencent.open.agent.PublicFragmentActivityForOpenSDK"
+							]
+						}
+					]
+				},
+				{
+					"name": "完成qq授权",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.tim:id/b7p']"
+							],
+							"activityIds": [
+								"com.tencent.open.agent.PublicFragmentActivityForOpenSDK"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.mm",
+			"name": "微信",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-12-15 11:59:09",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.mm:id/g5p'][text='确认']"
+							],
+							"activityIds": [
+								"com.tencent.mm.plugin.webview.ui.tools.SDKOAuthAppDataUI"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2023-12-15 12:00:50",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.tencent.mm:id/g5r']"
+							],
+							"activityIds": [
+								"com.tencent.mm.plugin.webview.ui.tools.SDKOAuthAppDataUI"
+							]
+						}
+					]
+				},
+				{
+					"name": "微信界面警惕详情关闭",
+					"key": 3,
+					"desc": "微信界面警惕详情关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.mm:id/bqi\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.mm.ui.conversation.ConvBoxServiceConversationUI"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.dianping.v1",
+			"name": "大众点评",
+			"groups": [
+				{
+					"name": "取消更新",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.dianping.v1:id/update_close_icon']"
+							],
+							"activityIds": [
+								"com.dianping.v1.NovaMainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "开启系统通知关闭",
+					"key": 1,
+					"desc": "开启系统通知关闭",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView < [name=\"android.widget.FrameLayout\"] -2 [text=\"去开启\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.dianping.v1.NovaMainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ctrip.android.view",
+			"name": "携程旅行",
+			"groups": [
+				{
+					"name": "关闭跟新",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='ctrip.android.view:id/a'][desc='关闭']"
+							],
+							"activityIds": [
+								"ctrip.business.splash.CtripSplashActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.vivo.browser",
+			"name": "浏览器",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2023-12-15 13:22:13",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id='com.vivo.browser:id/dialog_button_right'][text='确定']"
+							],
+							"activityIds": [
+								"com.vivo.browser.v5biz.export.security.checkurls.tms.RiskWebDialogActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.meitu.meiyancamera",
+			"name": "美颜相机",
+			"groups": [
+				{
+					"name": "通知权限",
+					"key": 0,
+					"desc": "取消通知",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.meitu.meiyancamera:id/4K\"][text=\"以后再说\"]"
+							],
+							"activityIds": [
+								"com.meitu.myxj.home.activity.NewHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "美图秀秀拍照后广告",
+					"key": 1,
+					"desc": "美图秀秀拍照后广告",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView + [id=\"com.meitu.meiyancamera:id/jW\"]"
+							],
+							"activityIds": [
+								"com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "美颜相机-看过了",
+					"key": 2,
+					"desc": "看过了",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.meitu.meiyancamera:id/zM\"][text=\"看过了 \"]"
+							],
+							"activityIds": [
+								"com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "美颜相机-广告弹窗",
+					"key": 3,
+					"desc": "美颜相机-广告弹窗",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.meitu.meiyancamera:id/Q,\"]"
+							],
+							"activityIds": [
+								"com.meitu.myxj.home.activity.NewHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "头部广告",
+					"key": 4,
+					"desc": "头部广告",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView - [id=\"com.meitu.meiyancamera:id/lW\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "更新提示",
+					"key": 5,
+					"desc": "更新提示",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.meitu.meiyancamera:id/Ro\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.meitu.myxj.home.activity.NewHomeActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "vip",
+					"key": 6,
+					"desc": "vip",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.meitu.meiyancamera:id/D3\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.meitu.myxj.beauty_new.activity.BeautifyActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "关闭广告",
+					"key": 8,
+					"desc": "关闭广告",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView - [id=\"com.meitu.meiyancamera:id/jW\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "开启高清关闭",
+					"key": 9,
+					"desc": "开启高清关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.meitu.meiyancamera:id/Dw\"][text=\"\"]"
+							],
+							"quickFind": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.ss.android.article.news",
+			"name": "今日头条",
+			"groups": [
+				{
+					"name": "今日头条不开启消息通知",
+					"key": 0,
+					"desc": "今日头条不开启消息通知",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.article.news:id/c40\"][text=\"暂不开启\"]"
+							],
+							"activityIds": [
+								"com.ss.android.article.news.activity.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.weread",
+			"name": "微信读书",
+			"groups": [
+				{
+					"name": "微信读书-不想更新",
+					"key": 0,
+					"desc": "微信读书-不想更新",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"不想更新\"]"
+							]
+						}
+					]
+				},
+				{
+					"name": "加入书架-我知道了",
+					"key": 1,
+					"desc": "我知道了",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"我知道了\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.weread.WeReadFragmentActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "通知推送-取消",
+					"key": 3,
+					"desc": "通知推送-取消",
+					"rules": [
+						{
+							"matches": [
+								"[name=\"android.widget.Button\"][text=\"取 消\"]"
+							],
+							"activityIds": [
+								"com.tencent.weread.WeReadFragmentActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.mobileqq",
+			"name": "QQ",
+			"groups": [
+				{
+					"name": "QQ同意确认",
+					"key": 0,
+					"desc": "QQ同意确认",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.mobileqq:id/b7p\"]"
+							],
+							"activityIds": [
+								"com.tencent.open.agent.PublicFragmentActivityForOpenSDK"
+							]
+						}
+					]
+				},
+				{
+					"name": "QQ同意",
+					"key": 1,
+					"desc": "QQ同意",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.mobileqq:id/fds\"]"
+							],
+							"activityIds": [
+								"com.tencent.open.agent.PublicFragmentActivityForOpenSDK"
+							]
+						}
+					]
+				},
+				{
+					"name": "qq-确定",
+					"key": 2,
+					"desc": "qq-确定",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.mobileqq:id/b7p\"]"
+							],
+							"activityIds": [
+								"com.tencent.open.agent.PublicFragmentActivityForOpenSDK"
+							]
+						}
+					]
+				},
+				{
+					"name": "立即安装关闭",
+					"key": 3,
+					"desc": "立即安装关闭",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView - [text=\"立即安装\"][name=\"android.widget.TextView\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.mobileqq.activity.SplashActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.sankuai.meituan",
+			"name": "美团",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2024-01-26 18:24:24",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.sankuai.meituan:id/marking_sidebar_icon\"]"
+							],
+							"activityIds": [
+								"com.sankuai.waimai.business.page.homepage.TakeoutActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "月付反洗钱立即完善",
+					"key": 1,
+					"desc": "月付反洗钱立即完善",
+					"rules": [
+						{
+							"matches": [
+								"@TextView < [name=\"android.view.View\"] + [name=\"android.view.View\"] > [text=\"立即完善\"]"
+							],
+							"activityIds": [
+								"com.sankuai.eh.framework.EHContainerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "全部已读",
+					"key": 2,
+					"desc": "全部已读",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.sankuai.meituan:id/iv_close\"] - [text=\"全部已读\"][id=\"com.sankuai.meituan:id/bt_guide\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.meituan.android.pt.homepage.activity.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.rzcf.app",
+			"name": "逐梦云",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2024-01-26 18:27:24",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.rzcf.app:id/update_negative_button\"]"
+							],
+							"activityIds": [
+								"com.rzcf.app.main.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.zhihu.android",
+			"name": "知乎",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2024-02-21 14:35:30",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@Image < [name=\"android.view.View\"] +2 [text=\"​ 关注\"]"
+							],
+							"activityIds": [
+								"com.zhihu.android.mixshortcontainer.MixShortContainerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "不看广告",
+					"key": 1,
+					"desc": "不看广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.zhihu.android:id/uninterest_reason\"][text=\"不看广告\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.zhihu.android.app.ui.activity.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "不看广告确认",
+					"key": 2,
+					"desc": "不看广告确认",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.zhihu.android:id/confirm_uninterest\"][text=\"确认\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.zhihu.android.app.ui.activity.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.ss.android.ugc.aweme",
+			"name": "抖音",
+			"groups": [
+				{
+					"name": "暂不开启",
+					"key": 0,
+					"desc": "暂不开启",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/dt\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.main.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "以后再说",
+					"key": 3,
+					"desc": "以后再说",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/w86\"][text=\"以后再说\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.main.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "搜索-暂不开启",
+					"key": 4,
+					"desc": "搜索-暂不开启",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/xwn\"][text=\"暂不开启\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.search.activity.SearchResultActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "通知保持现状",
+					"key": 5,
+					"desc": "通知保持现状",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/ees\"][text=\"保持现状\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.setting.serverpush.ui.PushSettingManagerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "打开私信通知-以后再说",
+					"key": 7,
+					"desc": "打开私信通知-以后再说",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/xjg\"][text=\"以后再说\"]"
+							],
+							"quickFind": true
+						}
+					]
+				},
+				{
+					"name": "添加火花桌面小组件-关闭",
+					"key": 8,
+					"desc": "添加火花桌面小组件-关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/kfu\"][desc=\"关闭\"]"
+							],
+							"quickFind": true
+						}
+					]
+				},
+				{
+					"name": "团购”频道搬家啦我知道了",
+					"key": 10,
+					"desc": "团购”频道搬家啦我知道了",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/bgv\"][text=\"我知道了\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.main.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "抖音商城-知道了",
+					"key": 11,
+					"desc": "抖音商城-知道了",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"知道了\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.commerce.sdk.MallContainerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "去首页商城使用",
+					"key": 12,
+					"desc": "去首页商城使用",
+					"rules": [
+						{
+							"matches": [
+								"[name=\"com.lynx.tasm.behavior.ui.text.UIText\"] -2 [text=\"去首页商城使用\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.commerce.sdk.MallContainerActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "开启朋友的消息通知-暂不开启",
+					"key": 13,
+					"desc": "开启朋友的消息通知-暂不开启",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/dr\"][text=\"暂不开启\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.main.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "加入挑战-关闭",
+					"key": 14,
+					"desc": "加入挑战-关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/iv_close\"][desc=\"关闭\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.main.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "开启搜索组件到桌面-暂不开启",
+					"key": 15,
+					"desc": "开启搜索组件到桌面-暂不开启",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/x5v\"][text=\"暂不开启\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.search.activity.SearchResultActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.xunlei.downloadprovider",
+			"name": "迅雷",
+			"groups": [
+				{
+					"name": "底部福利广告",
+					"key": 0,
+					"desc": "底部福利广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.xunlei.downloadprovider:id/close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.xunlei.downloadprovider.frame.MainTabActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-04-09 11:10:43",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"@View + [text=\"诚意放送，仅限本弹窗支付\"]"
+							],
+							"activityIds": [
+								"com.xunlei.downloadprovider.frame.MainTabActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "首月一元抢",
+					"key": 2,
+					"desc": "首月一元抢",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.xunlei.downloadprovider:id/close_btn\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.xunlei.downloadprovider.xpan.share.activity.XPanShareFileActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.jingdong.app.mall",
+			"name": "京东",
+			"groups": [
+				{
+					"name": "[ChangeMe]规则名称-2024-04-09 10:59:42",
+					"key": 0,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.jingdong.app.mall:id/br\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.jingdong.app.mall.update.view.InstallApkActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "现在体验-关闭页面",
+					"key": 1,
+					"desc": "现在体验-关闭页面",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.jingdong.app.mall:id/b61\"][desc=\"关闭页面\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.jingdong.app.mall.MainFrameActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.xriver",
+			"name": "腾讯加速器",
+			"groups": [
+				{
+					"name": "立即开通关闭",
+					"key": 0,
+					"desc": "立即开通关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.xriver:id/dq\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.mocmna.base.xriver.main.activity.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "[ChangeMe]规则名称-2024-05-28 11:31:53",
+					"key": 1,
+					"desc": "[ChangeMe]本规则由GKD网页端审查工具生成",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.xriver:id/hh\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.mocmna.base.xriver.main.activity.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "同意授权",
+					"key": 2,
+					"desc": "同意授权",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.xriver:id/az0\"][text=\"同意\"]"
+							],
+							"quickFind": true
+						}
+					]
+				},
+				{
+					"name": "QQ登录",
+					"key": 3,
+					"desc": "QQ登录",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.xriver:id/b1v\"][text=\"QQ登录\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.mocmna.base.xriver.main.activity.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "开启通知",
+					"key": 4,
+					"desc": "开启通知",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.tencent.xriver:id/az0\"][text=\"开启通知\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.mna.user.ForceLoginActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "上线提醒",
+					"key": 5,
+					"desc": "上线提醒",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"上线提醒\"][name=\"android.widget.TextView\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.mocmna.base.xriver.main.activity.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.lietou.mishu",
+			"name": "猎聘",
+			"groups": [
+				{
+					"name": "头像关闭",
+					"key": 0,
+					"desc": "头像关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.lietou.mishu:id/_alert_ad_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.liepin.apply.TabHomeFragmentActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "点击领取关闭",
+					"key": 1,
+					"desc": "点击领取关闭",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"wcAzQKt0H76jgAAAABJRU5ErkJggg==\"]"
+							],
+							"activityIds": [
+								"com.liepin.apply.TabHomeFragmentActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.mxtech.videoplayer.ad",
+			"name": "MX 播放器",
+			"groups": [
+				{
+					"name": "以后再说",
+					"key": 0,
+					"desc": "以后再说",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"android:id/button2\"][text=\"以后再说\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.mxtech.videoplayer.ad.ActivityMediaList"
+							]
+						}
+					]
+				},
+				{
+					"name": "播放暂停广告",
+					"key": 1,
+					"desc": "播放暂停广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.mxtech.videoplayer.ad:id/native_ad_close_button\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.mxtech.videoplayer.ad.ActivityScreen"
+							]
+						}
+					]
+				},
+				{
+					"name": "跳过视频",
+					"key": 2,
+					"desc": "跳过视频",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"跳过视频\"]"
+							],
+							"activityIds": [
+								"com.mxtech.videoplayer.ad.ActivityMediaList"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.mi.health",
+			"name": "小米运动健康",
+			"groups": [
+				{
+					"name": "勋章关闭",
+					"key": 0,
+					"desc": "勋章关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.mi.health:id/dialog_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.xiaomi.fitness.main.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "放弃更新",
+					"key": 1,
+					"desc": "放弃更新",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"android:id/button2\"][text=\"放弃更新\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.xiaomi.fitness.main.MainActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "取消更新",
+					"key": 2,
+					"desc": "取消更新",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"android:id/button2\"][text=\"取消\"]"
+							],
+							"quickFind": true
+						}
+					]
+				},
+				{
+					"name": "设备消息通知有延迟",
+					"key": 3,
+					"desc": "设备消息通知有延迟",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.mi.health:id/close_icon\"][desc=\"关闭\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.xiaomi.fitness.main.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "cmb.pb",
+			"name": "招商银行",
+			"groups": [
+				{
+					"name": "开启消息通知",
+					"key": 0,
+					"desc": "开启消息通知",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"cmb.pb:id/close_btn\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.cmb.zh.ui.mbank.im.activitys.messagecenter.MessageCenterActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.tencent.gamehelper.smoba",
+			"name": "王者营地",
+			"groups": [
+				{
+					"name": "同意授权",
+					"key": 0,
+					"desc": "同意授权",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"同意\"][name=\"android.widget.TextView\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.gamehelper.biz.launcher.ui.SplashActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.zhihu.android.lite",
+			"name": "知乎极速版",
+			"groups": [
+				{
+					"name": "会员页广告",
+					"key": 0,
+					"desc": "会员页广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.zhihu.android.lite:id/dismiss\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.zhihu.android.app.ui.activity.LauncherActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.xingin.xhs",
+			"name": "小红书",
+			"groups": [
+				{
+					"name": "开启通知小提示",
+					"key": 0,
+					"desc": "开启通知小提示",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.xingin.xhs:id/cs1\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.xingin.xhs.index.v2.IndexActivityV2"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.bbk.appstore",
+			"name": "应用商店",
+			"groups": [
+				{
+					"name": "小tips关闭",
+					"key": 0,
+					"desc": "小tips关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.bbk.appstore:id/tips_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.bbk.appstore.ui.AppStoreTabActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.vivo.wallet",
+			"name": "钱包",
+			"groups": [
+				{
+					"name": "开启钱包通知-关闭",
+					"key": 0,
+					"desc": "开启钱包通知-关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.vivo.wallet:id/vpoppush_close\"][desc=\"关闭\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.vivo.wallet.HomeActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.alibaba.android.rimet",
+			"name": "钉钉",
+			"groups": [
+				{
+					"name": "钉钉-勾选原图",
+					"key": 0,
+					"desc": "钉钉-勾选原图",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.alibaba.android.rimet:id/cb_send_origin\"][text=\"原图\"][checked=false]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.alibaba.android.dingtalk.photoui.activitys.AlbumActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "钉钉-查看原图",
+					"key": 1,
+					"desc": "钉钉-查看原图",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.alibaba.android.rimet:id/photo_page_download_origin\"]"
+							],
+							"quickFind": true
+						}
+					]
+				}
+			]
+		}
+	]
+}
