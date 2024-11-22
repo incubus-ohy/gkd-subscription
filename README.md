@@ -1,1 +1,1 @@
-# gkd-subscription
+# gkd 自用规则
