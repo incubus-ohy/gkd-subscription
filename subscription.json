@@ -1,8 +1,7 @@
-
 {
 	"id": 825,
 	"name": "incubus订阅",
-	"version": 212,
+	"version": 239,
 	"author": "gkd",
 	"globalGroups": [],
 	"categories": [],
@@ -479,6 +478,51 @@
 							]
 						}
 					]
+				},
+				{
+					"name": "花呗服务升级-关闭",
+					"key": 6,
+					"desc": "花呗服务升级-关闭",
+					"rules": [
+						{
+							"matches": [
+								"@Image < [name=\"android.view.View\"] + [name=\"android.widget.TextView\"][text=\"花呗服务升级\"]"
+							],
+							"activityIds": [
+								"com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main"
+							]
+						}
+					]
+				},
+				{
+					"name": "根据相关法律法规要求，请尽快完成花呗服务升级",
+					"key": 7,
+					"desc": "根据相关法律法规要求，请尽快完成花呗服务升级",
+					"rules": [
+						{
+							"matches": [
+								"@Image < [name=\"android.view.View\"] + [name=\"android.widget.TextView\"][text=\"根据相关法律法规要求，请尽快完成花呗服务升级\"]"
+							],
+							"activityIds": [
+								"com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main"
+							]
+						}
+					]
+				},
+				{
+					"name": "花呗服务全新升级",
+					"key": 8,
+					"desc": "花呗服务全新升级",
+					"rules": [
+						{
+							"matches": [
+								"[name=\"android.widget.Button\"][text=\"Close\"]"
+							],
+							"activityIds": [
+								"com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main"
+							]
+						}
+					]
 				}
 			]
 		},
@@ -786,6 +830,37 @@
 						{
 							"matches": [
 								"[id=\"com.tencent.qqmusic:id/bhi\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "您的豪华绿钻已过期",
+					"key": 21,
+					"desc": "您的豪华绿钻已过期",
+					"rules": [
+						{
+							"matches": [
+								"[name=\"android.view.View\"][desc=\"关闭\"]"
+							],
+							"activityIds": [
+								"com.tencent.qqmusic.activity.AppStarterActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "点击立享VIP歌曲免费听10分钟",
+					"key": 22,
+					"desc": "点击立享VIP歌曲免费听10分钟",
+					"rules": [
+						{
+							"matches": [
+								"@ImageView - [id=\"com.tencent.qqmusic:id/mwp\"][text=\"广告\"]"
 							],
 							"quickFind": true,
 							"activityIds": [
@@ -1221,6 +1296,21 @@
 							]
 						}
 					]
+				},
+				{
+					"name": "老友回归福利",
+					"key": 9,
+					"desc": "老友回归福利",
+					"rules": [
+						{
+							"matches": [
+								"[text=\"奖励在「任务中心」查看\"] + [name=\"android.widget.TextView\"]"
+							],
+							"activityIds": [
+								"com.sina.weibo.feed.MPDialogActivity"
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1500,6 +1590,19 @@
 							"activityIds": [
 								"com.mc10086.cmcc.view.tabs.AppTabFragment"
 							]
+						}
+					]
+				},
+				{
+					"name": "开启推送-关闭",
+					"key": 3,
+					"desc": "开启推送-关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.kingpoint.gmcchh:id/btn_cancel\"][text=\"取消\"]"
+							],
+							"quickFind": true
 						}
 					]
 				}
@@ -1813,6 +1916,22 @@
 							]
 						}
 					]
+				},
+				{
+					"name": "正常使用中",
+					"key": 7,
+					"desc": "正常使用中",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.netease.cloudmusic:id/negativeBtn\"][text=\"正常使用中\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.netease.cloudmusic.activity.MainActivity"
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1898,6 +2017,36 @@
 							"quickFind": true,
 							"activityIds": [
 								"com.tencent.mm.ui.conversation.ConvBoxServiceConversationUI"
+							]
+						}
+					]
+				},
+				{
+					"name": "公众号-不感兴趣",
+					"key": 4,
+					"desc": "公众号-不感兴趣",
+					"rules": [
+						{
+							"matches": [
+								"View[id=\"ad_container\"] > View[childCount=1] @View > [id=null][text^=\"不感兴趣\"][visibleToUser=true]"
+							],
+							"activityIds": [
+								"com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI"
+							]
+						}
+					]
+				},
+				{
+					"name": "公众号-与我无关",
+					"key": 5,
+					"desc": "公众号-与我无关",
+					"rules": [
+						{
+							"matches": [
+								"View[id=\"ad_container\"] + View[childCount=3] > [id=null][text^=\"与我无关\"][visibleToUser=true]"
+							],
+							"activityIds": [
+								"com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI"
 							]
 						}
 					]
@@ -2578,6 +2727,22 @@
 							]
 						}
 					]
+				},
+				{
+					"name": "消息列表页提示",
+					"key": 16,
+					"desc": "消息列表页提示",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.ss.android.ugc.aweme:id/qmx\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.ss.android.ugc.aweme.main.MainActivity"
+							]
+						}
+					]
 				}
 			]
 		},
@@ -3090,6 +3255,152 @@
 								"[id=\"com.alibaba.android.rimet:id/photo_page_download_origin\"]"
 							],
 							"quickFind": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.chinamobile.mcloud",
+			"name": "中国移动云盘",
+			"groups": [
+				{
+					"name": "开启中国移动云盘通知-关闭",
+					"key": 0,
+					"desc": "开启中国移动云盘通知-关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.chinamobile.mcloud:id/btn_push_notice_close_dialog\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.chinamobile.mcloud.client.ui.MenuActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "加入会员关闭",
+					"key": 1,
+					"desc": "加入会员关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.chinamobile.mcloud:id/iv_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.chinamobile.mcloud.client.ui.MenuActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "首页漂流瓶",
+					"key": 2,
+					"desc": "首页漂流瓶",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.chinamobile.mcloud:id/btn_current_bottle_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.chinamobile.mcloud.client.ui.MenuActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "10元家庭红包派送中",
+					"key": 3,
+					"desc": "10元家庭红包派送中",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.chinamobile.mcloud:id/iv_home_delete\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.chinamobile.mcloud.client.ui.MenuActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "我的-下面广告",
+					"key": 4,
+					"desc": "我的-下面广告",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.chinamobile.mcloud:id/btn_close\"][vid=\"btn_close\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.chinamobile.mcloud.client.ui.MenuActivity"
+							]
+						}
+					]
+				},
+				{
+					"name": "确定删除",
+					"key": 5,
+					"desc": "确定删除",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.chinamobile.mcloud:id/btn_minor\"][text=\"确定删除\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.chinamobile.mcloud.client.ui.basic.view.BenefitDialogActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.chinamworld.bocmbci",
+			"name": "中国银行",
+			"groups": [
+				{
+					"name": "首页广告-关闭",
+					"key": 0,
+					"desc": "首页广告-关闭",
+					"rules": [
+						{
+							"matches": [
+								"[id=\"com.chinamworld.bocmbci:id/btn_action\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.boc.bocsoft.mobile.bocmobile.buss.system.main.ui.MainActivity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "com.vivo.systemuiplugin",
+			"name": "系统界面组件",
+			"groups": [
+				{
+					"name": "腾讯加速器-开启通知-返回",
+					"key": 0,
+					"desc": "腾讯加速器-开启通知-返回",
+					"rules": [
+						{
+							"matches": [
+								"@Button < [name=\"android.widget.LinearLayout\"] - [name=\"android.widget.LinearLayout\"] > [name=\"android.widget.FrameLayout\"] > [id=\"vivo:id/main\"][text=\"腾讯加速器\"]"
+							],
+							"quickFind": true,
+							"activityIds": [
+								"com.vivo.systemui.statusbar.notification.settings.channels.NotificationSettingsActivity"
+							]
 						}
 					]
 				}
